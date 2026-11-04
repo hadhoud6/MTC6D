@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "react-international-phone/style.css";
+
+@theme inline {
+  --color-brand-orange: #ef5d36;
+  --color-brand-dark: #1a1a1a;
+  --color-brand-dark-alt: #2d2d2d;
+  --color-brand-light: #f8f9fa;
+  --color-text-muted: #6b7280;
+  --font-serif: var(--font-cormorant);
+  --font-display: var(--font-playfair);
+  --font-arabic: var(--font-amiri);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), Georgia, serif;
+}
+
+.font-caveat {
+  font-family: var(--font-caveat), cursive;
+}
+
+a[href^="tel:"],
+input[autocomplete="tel"] {
+  font-family: "Times New Roman", Times, "Liberation Serif", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-cormorant), Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@keyframes loading-bar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes quote-pop {
+  0% {
+    transform: scale(0.96);
+  }
+  65% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

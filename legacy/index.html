@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARBRERIE TUNIS CARTHAGE - L'Élégance Intemporelle</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="MARBRERIE TUNIS CARTHAGE - Experts en marbre de luxe, de la carrière à votre intérieur. Découvrez nos collections d'exception et notre configurateur 3D.">
+    <meta name="keywords" content="marbre, tunisie, carthage, luxe, architecture, 3D, marbrerie">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=Cormorant+Garamond:wght@300;400;600;700&family=Amiri:wght@400;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <img src="logo.png" alt="MARBRERIE TUNIS CARTHAGE">
+            </div>
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Chargement de l'excellence...</p>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <span class="progress-text">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-section" id="accueil">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="logo">
+                        <div class="logo-container">
+                            <img src="logo.png" alt="MARBRERIE TUNIS CARTHAGE" class="logo-image">
+                            <div class="logo-text">
+                                <div class="logo-french">MARBRERIE TUNIS CARTHAGE</div>
+                                <div class="logo-arabic">معمل الرخام تونس قرطاج</div>
+                                <div class="logo-since">Since 1989</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="nav-links">
+                        <a href="#accueil">Accueil</a>
+                        <a href="#apropos">À Propos</a>
+                        <a href="#usine">Usine</a>
+                        <a href="#produits">Produits</a>
+                        <a href="#3d">3D Configurateur</a>
+                        <a href="#projets">Projets</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+
+                    <div class="nav-actions">
+                        <button id="catalog-btn" class="button btn-primary">Notre Catalogue</button>
+                    </div>
+
+                    <button class="mobile-menu-btn" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <div id="hero-slides"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="hero-title" class="hero-title"></h1>
+                <p id="hero-subtitle" class="hero-subtitle"></p>
+            </div>
+        </div>
+        <div id="slide-indicators" class="slide-indicators"></div>
+         <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div id="apropos"></div>
+    <section class="video-section" id="usine">
+        <div class="container">
+            <div class="video-grid">
+                <div class="video-container">
+                    <iframe class="video-player"
+                            src="https://www.youtube.com/embed/r5NAR0xMqTc?rel=0"
+                            title="MARBRERIE TUNIS CARTHAGE - Notre Savoir-Faire"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="video-text">
+                    <h3>Notre Savoir-Faire en Mouvement</h3>
+                    <p>
+                        Plongez au cœur de notre processus de création. De l'extraction à la finition, chaque étape est réalisée
+                        avec une précision et une passion qui garantissent un produit d'exception. Cette vidéo illustre notre
+                        engagement envers la qualité et l'artisanat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section" id="produits" style="background-image: url(0.jpg)">
+        <div class="container section-content">
+            <h2 class="section-title">Nos Produits d'Exception</h2>
+            <p class="section-description">
+                Explorez notre collection de marbres, disponibles dans une variété de couleurs et de finitions pour sublimer
+                tous vos projets, des plus classiques aux plus audacieux.
+            </p>
+            <button id="open-product-modal" class="button btn-large btn-orange">Voir tous les produits</button>
+        </div>
+    </section>
+
+    <section class="tools-section" id="3d" style="background-image: url(00.jpg)">
+        <div class="container section-content">
+            <h2 class="section-title">Visualisez Votre Projet</h2>
+            <p class="section-description">
+                Utilisez notre configurateur 3D interactif pour tester nos marbres dans votre propre espace. Donnez vie à
+                vos idées et choisissez la finition parfaite avant même de commencer.
+            </p>
+            <button id="open-tool-modal" class="button btn-large btn-black">Lancer l'outil 3D</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="projets">
+        <div class="container">
+            <h2 class="section-title-dark">Ils nous ont fait confiance</h2>
+            <p class="section-description-dark">
+                Un réseau de clients diversifiés et prestigieux à travers le monde.
+            </p>
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <!-- Logos will be injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="MARBRERIE TUNIS CARTHAGE">
+                        <div class="footer-logo-text">
+                            <div class="logo-french">MARBRERIE TUNIS CARTHAGE</div>
+                            <div class="logo-arabic">معمل الرخام تونس قرطاج</div>
+                            <div class="logo-since">Since 1989</div>
+                        </div>
+
+                    </div>
+                    <p class="footer-text">
+                        L'art du marbre, de la carrière à votre intérieur. Qualité, luxe et savoir-faire tunisien.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Liens Rapides</h4>
+                    <div class="footer-links-grid">
+                        <a href="#apropos">À Propos</a>
+                        <a href="#produits">Nos Produits</a>
+                        <a href="#3d">Configurateur 3D</a>
+                        <a href="#projets">Nos Projets</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contactez-nous</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+216 70 836 518</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>contact@marbletuniscarthage.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>32 rue de l’Artisanat, zone industrielle Charguia 2, Ariana la Soukra, Tunis, Tunisie</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-map">
+                    <h4 class="footer-title">Notre Emplacement</h4>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.471186970279!2d10.202140610789742!3d36.85513896448592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34d2884ef2c5%3A0x286619693e036117!2s32%20Rue%20de%20l&#39;artisanat!5e0!3m2!1sfr!2stn!4v1759530484226!5m2!1sfr!2stn"
+                            width="100%"
+                            height="150"
+                            style="border:0; border-radius: 6px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 MARBRERIE TUNIS CARTHAGE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/21670836518?text=Bonjour%20Marble%20Tunis%20Carthage,%20je%20suis%20intéressé%20par%20vos%20produits%20en%20marbre." target="_blank" class="whatsapp-button" aria-label="Contacter sur WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-5.5-2.8-23.4-8.6-44.6-27.5-16.4-14.7-27.5-32.8-30.7-38.4-3.2-5.5-.3-8.5 2.5-11.2 2.5-2.5 5.5-6.5 8.3-9.7 2.8-3.3 3.7-5.5 5.5-9.3.1.8-3.7-8.3-1.4-12.9-1.4-4.6-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.2 5.8 23.5 9.2 31.5 11.8 13.5 4.3 25.7 3.7 35.4 2.2 10.8-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+
+    <!-- Modals -->
+    <div id="product-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="close-product-modal" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <h2 class="modal-title">Notre Collection</h2>
+                <p class="modal-subtitle">Découvrez nos marbres d'exception</p>
+                <div class="carousel">
+                    <div class="carousel-controls">
+                        <button id="prev-product" class="carousel-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <div class="carousel-items">
+                            <div class="carousel-item side"><img id="product-left" src="" alt=""></div>
+                            <div class="carousel-item center"><img id="product-center" src="" alt=""></div>
+                            <div class="carousel-item side"><img id="product-right" src="" alt=""></div>
+                        </div>
+                        <button id="next-product" class="carousel-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="product-info" class="product-info">
+                        <div id="product-category" class="product-category"></div>
+                        <h3 id="product-name" class="product-name"></h3>
+                        <p id="product-description" class="product-description"></p>
+                        <p id="product-finish" class="product-finish"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tool-modal" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <button id="close-tool-modal" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <h2 class="modal-title">Configurateur 3D</h2>
+                <p class="modal-subtitle">Choisissez votre espace à visualiser</p>
+                <div id="tools-grid" class="tools-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

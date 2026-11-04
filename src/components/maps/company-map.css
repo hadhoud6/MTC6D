@@ -1,0 +1,44 @@
+/* Marker for the company map. The label is the only text drawn on the
+   map: every label layer of the base style is removed in CompanyMap. */
+
+.mtc-map-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.mtc-map-marker__label {
+  margin-bottom: 8px;
+  white-space: nowrap;
+  border: 1px solid rgb(231 229 228);
+  border-radius: 9999px;
+  background: #fff;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  color: #1a1a1a;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.18);
+}
+
+.mtc-map-marker__pin {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #ef5d36;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.25);
+}
+
+.mtc-map-marker__pin::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: 7px solid transparent;
+  border-top: 10px solid #ef5d36;
+}

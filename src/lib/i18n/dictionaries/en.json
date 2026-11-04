@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "title": "MARBRERIE TUNIS CARTHAGE | Since 1989",
+    "description": "MARBRERIE TUNIS CARTHAGE — experts in marble, granite, and natural stone since 1989."
+  },
+  "loading": {
+    "text": "Loading excellence..."
+  },
+  "nav": {
+    "accueil": "Home",
+    "apropos": "About",
+    "usine": "The Factory",
+    "produits": "Products",
+    "configurateur": "3D Configurator",
+    "projets": "Projects",
+    "devis": "Quote",
+    "contact": "Contact",
+    "catalogue": "Catalog",
+    "footer": "Contact & Links",
+    "since": "Since {year}",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "video": {
+    "title": "Our Craft in Motion",
+    "description": "Dive into the heart of our creation process. From extraction to finishing, every step is carried out with precision and passion that guarantee an exceptional product. This video illustrates our commitment to quality and Tunisian craftsmanship.",
+    "mute": "Mute",
+    "unmute": "Unmute"
+  },
+  "usine": {
+    "meta": {
+      "title": "The Factory | MARBRERIE TUNIS CARTHAGE — Cutting, Polishing, Waterjet",
+      "description": "Tour our factory: bridge saw, polishing line, OMAG 3-axis machine, waterjet cutting and packaging."
+    },
+    "title": "Factory",
+    "description": "Discover our marble transformation workshops, where artisanal tradition meets modern technology. Every stone is cut, polished, and finished with expertise passed down since 1989.",
+    "cta": "Visit the factory"
+  },
+  "products": {
+    "meta": {
+      "title": "Our Products | MARBRERIE TUNIS CARTHAGE — Marble, Granite, Travertine, Onyx",
+      "description": "Browse our natural stone catalogue: marble, granite, travertine, onyx and Patagonia, photographed in the workshop. Request your quote online."
+    },
+    "title": "Products",
+    "description": "Explore our marble collection, available in a variety of colors and finishes to enhance all your projects, from the most classic to the most daring.",
+    "viewAll": "Explore the products",
+    "modalTitle": "Our Collection",
+    "modalSubtitle": "Browse the collection by material or search for a product.",
+    "finishLabel": "Finish:",
+    "items": {
+      "marbre-blanc-carrare": "Carrara White Marble",
+      "marbre-noir-marquina": "Marquina Black Marble",
+      "travertin-beige": "Beige Travertine",
+      "granit-rouge-imperial": "Imperial Red Granite",
+      "marbre-emeraude": "Emerald Marble",
+      "onyx-honey": "Honey Onyx"
+    },
+    "details": {
+      "marbre-blanc-carrare": {
+        "category": "Classic",
+        "description": "Carrara white marble is synonymous with pure elegance. Its delicate grey veins create a subtle contrast perfect for luxurious kitchens and bathrooms.",
+        "finish": "High-gloss polish"
+      },
+      "marbre-noir-marquina": {
+        "category": "Contemporary",
+        "description": "Deep black with striking white veins, this Spanish marble brings a dramatic, sophisticated touch to any modern space.",
+        "finish": "Matte polish"
+      },
+      "travertin-beige": {
+        "category": "Natural",
+        "description": "Beige travertine offers mineral warmth and authentic texture, ideal for Mediterranean interiors and elegant flooring.",
+        "finish": "Brushed"
+      },
+      "granit-rouge-imperial": {
+        "category": "Prestige",
+        "description": "Imperial red granite with deep reflections, perfect for bold countertops and standout architectural details.",
+        "finish": "High-gloss polish"
+      },
+      "marbre-emeraude": {
+        "category": "Exotic",
+        "description": "A rare marble with deep green tones and white veins, ideal for bold, natural focal points.",
+        "finish": "Honed"
+      },
+      "onyx-honey": {
+        "category": "Premium",
+        "description": "Translucent honey onyx with golden veins, chosen for backlit features and surfaces that capture the light.",
+        "finish": "High-gloss polish"
+      }
+    },
+    "addToQuote": "Add to quote",
+    "addedToQuote": "✓ Added",
+    "maximumQuoteProducts": "Maximum 3 products per quote",
+    "filterButton": "Filter collection",
+    "filterByType": "Filter by material",
+    "allTypes": "All materials",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Name, finish, color, category…",
+    "noProducts": "No products are available in this material yet.",
+    "noResults": "No products match your search."
+  },
+  "configurator": {
+    "title": "3D Configurator",
+    "description": "Use our interactive 3D configurator to test our marbles in your own space. Bring your ideas to life and choose the perfect finish before you even begin.",
+    "cta": "Launch 3D tool",
+    "popup": {
+      "title": "Choose your space to visualize",
+      "rooms": {
+        "kitchen": "Kitchen",
+        "bathroom": "Bathroom",
+        "livingRoom": "Living Room",
+        "table": "Table"
+      },
+      "imageAlt": "Placeholder image — {room}",
+      "selectedMessage": "You selected: {room} — the next step is coming soon",
+      "back": "Back"
+    },
+    "tool": {
+      "marbleLabel": "Choose your marble",
+      "finishLabel": "Finish",
+      "finishPolished": "Polished",
+      "finishMatte": "Matte",
+      "finishNote": "The finish is a visual preview, to be confirmed in your quote request.",
+      "surfacesNote": "The marble is applied to the island countertop, its waterfall sides and the wall countertop.",
+      "addToQuote": "Add this marble to my quote",
+      "addedToQuote": "In your quote",
+      "viewQuote": "View my quote",
+      "quoteFull": "Your quote is full (3 products maximum)",
+      "dragHint": "Drag to rotate, scroll to zoom",
+      "loading": "Loading the 3D kitchen…",
+      "webglUnavailable": "The 3D view is not available on this device or browser. Here is the reference kitchen:",
+      "referenceCaption": "Reference kitchen",
+      "referenceAlt": "Reference kitchen with an island in white gold-veined marble"
+    }
+  },
+  "projets": {
+    "meta": {
+      "title": "Our Projects | MARBRERIE TUNIS CARTHAGE — Completed Work",
+      "description": "Our marble and natural stone projects: hotels, banks, places of worship and residences in Tunisia."
+    },
+    "title": "Projects",
+    "description": "Explore a selection of our completed work: villas, hotels, offices, and public spaces enhanced by Tunisian marble. Each project reflects our craftsmanship and commitment to excellence.",
+    "cta": "Explore a selection of projects"
+  },
+  "trusted": {
+    "title": "They trusted us",
+    "description": "A network of diverse and prestigious clients around the world."
+  },
+  "footer": {
+    "usefulLinks": "Useful links",
+    "contactUs": "Contact us",
+    "mapTitle": "Location",
+    "directions": "Directions",
+    "copyright": "© {year} MARBRERIE TUNIS CARTHAGE. All rights reserved."
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "backToTop": "Back to top"
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "This page is under construction. Check back very soon.",
+    "backHome": "Back to home"
+  },
+  "devis": {
+    "meta": {
+      "title": "Quote request | MARBRERIE TUNIS CARTHAGE",
+      "description": "Request a tailored quote for your marble, granite, or travertine project. Our team will get back to you promptly."
+    },
+    "pageTitle": "Request a quote",
+    "pageIntro": "Tell us about your project and we will respond with a tailored proposal. All fields are required except the optional attachment.",
+    "fields": {
+      "nom": "Last name",
+      "prenom": "First name",
+      "email": "Email address",
+      "telephone": "Phone number",
+      "productType": "Product type",
+      "dimensions": "Dimensions",
+      "longueur": "Length (cm)",
+      "largeur": "Width (cm)",
+      "epaisseur": "Thickness (cm)",
+      "file": "Attach a file (optional)",
+      "fileHint": "PDF, JPG, PNG, or DXF — 30 MB max",
+      "telephoneCountry": "Country",
+      "quantite": "Quantity (m²)",
+      "commentaire": "Comment",
+      "productSubtype": "Finish / variety",
+      "productSubtypePrompt": "Choose a {type} variety",
+      "finition": "Finish",
+      "finitionAutre": "Specify the finish (optional)",
+      "finitionAutreHint": "You can describe the finish you have in mind."
+    },
+    "productControls": {
+      "product": "Product {number}",
+      "counter": "Product {current} of {total}",
+      "previous": "Previous product",
+      "next": "Next product",
+      "add": "Add a product",
+      "max": "Maximum 3 products",
+      "myQuote": "My quote",
+      "myQuoteCount": "My quote {count}/3",
+      "browseCatalogue": "Browse the catalogue",
+      "catalogueProducts": "Catalogue products in your quote",
+      "remove": "Remove this product",
+      "confirm": "Confirm?",
+      "cancel": "Cancel"
+    },
+    "placeholders": {
+      "telephone": "+216 XX XXX XXX",
+      "productType": "Select a type",
+      "dimensions": "e.g. 2 m × 1.5 m",
+      "longueur": "e.g. 120",
+      "largeur": "e.g. 60",
+      "epaisseur": "e.g. 2",
+      "quantite": "e.g. 12.5",
+      "finition": "Select a finish",
+      "finitionAutre": "Describe the desired finish",
+      "commentaire": "Briefly describe your project…"
+    },
+    "productTypes": {
+      "marbre": "Marble",
+      "granit": "Granite",
+      "travertin": "Travertine",
+      "autre": "Other",
+      "onyx": "Onyx",
+      "patagonia": "Patagonia"
+    },
+    "finishOptions": {
+      "lustre": "Polished",
+      "ponceMat": "Honed (matte)",
+      "satine": "Satin",
+      "brosse": "Brushed",
+      "sable": "Sandblasted",
+      "boucharde": "Bush-hammered",
+      "flamme": "Flamed",
+      "autre": "Other"
+    },
+    "validation": {
+      "nomRequired": "Last name is required.",
+      "prenomRequired": "First name is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "telephoneRequired": "Phone number is required.",
+      "telephoneInvalid": "Expected format: 8 digits, with or without +216.",
+      "productTypeRequired": "Please select a product type.",
+      "productsRequired": "Add at least one product to your request.",
+      "productsLimit": "You can add up to 3 products.",
+      "dimensionsRequired": "Dimensions are required.",
+      "dimensionInvalid": "Enter a positive measurement in centimeters.",
+      "fileTooLarge": "File must not exceed 30 MB.",
+      "fileTypeInvalid": "Accepted formats: PDF, JPG, JPEG, or PNG.",
+      "telephoneCountryRequired": "Please choose a country.",
+      "quantityInvalid": "Quantity must be a positive number.",
+      "commentTooLong": "Comment must not exceed 1000 characters.",
+      "productSubtypeInvalid": "Please choose a valid variety.",
+      "finishRequired": "Please select a finish.",
+      "finishOtherTooLong": "The finish note must not exceed 160 characters."
+    },
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "fileRemove": "Remove",
+    "honeypotLabel": "Do not fill in",
+    "success": {
+      "title": "Request sent",
+      "message": "Thank you. We have received your quote request.",
+      "confirmationNote": "A confirmation email has been sent to the address you provided."
+    },
+    "error": {
+      "title": "Submission failed",
+      "retry": "Try again",
+      "fallback": "You can also reach us directly:",
+      "codes": {
+        "validation": "Some information looks incorrect. Please check the form and try again.",
+        "file": "The attachment is not valid.",
+        "upload": "File upload failed. Try again or submit without an attachment.",
+        "email": "We could not send the emails. Please try again in a few moments.",
+        "config": "The service is temporarily unavailable. Please call or message us on WhatsApp."
+      }
+    },
+    "emailUsine": {
+      "subject": "New quote request — {name}",
+      "heading": "New quote request",
+      "productHeading": "Product",
+      "nom": "Last name",
+      "prenom": "First name",
+      "email": "Email",
+      "telephone": "Phone",
+      "productType": "Product type",
+      "dimensions": "Dimensions",
+      "fileLink": "Attachment:",
+      "noFile": "No attachment.",
+      "productTypes": {
+        "marbre": "Marble",
+        "granit": "Granite",
+        "travertin": "Travertine",
+        "autre": "Other",
+        "onyx": "Onyx",
+        "patagonia": "Patagonia"
+      },
+      "telephoneCountry": "Country",
+      "productSubtype": "Finish / variety",
+      "finition": "Finish",
+      "finitionAutre": "Finish details",
+      "finishOptions": {
+        "lustre": "Polished",
+        "ponceMat": "Honed (matte)",
+        "satine": "Satin",
+        "brosse": "Brushed",
+        "sable": "Sandblasted",
+        "boucharde": "Bush-hammered",
+        "flamme": "Flamed",
+        "autre": "Other"
+      },
+      "quantite": "Quantity",
+      "commentaire": "Comment"
+    },
+    "emailConfirm": {
+      "subject": "Your quote request confirmation",
+      "greeting": "Hello {name},",
+      "body": "We have received your quote request. Our team is reviewing it and will contact you as soon as possible.",
+      "fallback": "If you need urgent assistance, call us at:",
+      "whatsapp": "Message us on WhatsApp",
+      "productHeading": "Product",
+      "telephoneCountry": "Country",
+      "telephone": "Phone",
+      "productType": "Product type",
+      "productSubtype": "Finish / variety",
+      "finition": "Finish",
+      "finitionAutre": "Finish details",
+      "finishOptions": {
+        "lustre": "Polished",
+        "ponceMat": "Honed (matte)",
+        "satine": "Satin",
+        "brosse": "Brushed",
+        "sable": "Sandblasted",
+        "boucharde": "Bush-hammered",
+        "flamme": "Flamed",
+        "autre": "Other"
+      },
+      "dimensions": "Dimensions",
+      "quantite": "Quantity",
+      "commentaire": "Comment",
+      "noComment": "No comment.",
+      "productTypes": {
+        "marbre": "Marble",
+        "granit": "Granite",
+        "travertin": "Travertine",
+        "onyx": "Onyx",
+        "autre": "Other",
+        "patagonia": "Patagonia"
+      }
+    },
+    "selectedProduct": "Selected product:"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us | MARBRERIE TUNIS CARTHAGE",
+      "description": "Get in touch with our luxury marble experts. Visit our workshop in Charguia 2 or send us a message."
+    },
+    "pageTitle": "Contact Us",
+    "pageIntro": "Our team is here to assist you and bring your exceptional marble projects to life.",
+    "info": {
+      "title": "Contact Details",
+      "subtitle": "Transformation workshop & showroom",
+      "addressLabel": "Workshop address",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "hoursTitle": "Opening Hours",
+      "whatsappCta": "Contact us on WhatsApp",
+      "whatsappDesc": "Quick response from our sales team",
+      "socialTitle": "Follow Us",
+      "mapTitle": "Workshop location",
+      "directions": "Directions"
+    },
+    "formTitle": "Send us a message",
+    "formSubtitle": "Fill out this form and we will reply within 24 hours.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email address",
+      "message": "Your message",
+      "file": "Attachment (optional)",
+      "fileHint": "PDF, JPG, or PNG — 10 MB max"
+    },
+    "placeholders": {
+      "name": "e.g. Mohamed Ben Salem",
+      "email": "e.g. contact@example.com",
+      "message": "Describe your project, requirements, or questions..."
+    },
+    "validation": {
+      "nameRequired": "Full name is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Message is required.",
+      "fileTooLarge": "File must not exceed 10 MB.",
+      "fileTypeInvalid": "Accepted formats: PDF, JPG, JPEG, or PNG."
+    },
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "fileRemove": "Remove",
+    "honeypotLabel": "Do not fill in",
+    "success": {
+      "title": "Message sent",
+      "message": "Thank you for your message. Our sales team will get back to you shortly.",
+      "confirmationNote": "A confirmation email has been sent to the address you provided."
+    },
+    "error": {
+      "title": "Submission failed",
+      "retry": "Try again",
+      "fallback": "You can also reach us directly:",
+      "codes": {
+        "validation": "Some information looks incorrect. Please check the form and try again.",
+        "file": "The attachment is not valid.",
+        "upload": "File upload failed. Try again or submit without an attachment.",
+        "email": "We could not send the emails. Please try again in a few moments.",
+        "config": "The service is temporarily unavailable. Please call or message us on WhatsApp."
+      }
+    },
+    "emailUsine": {
+      "subject": "New contact message — {name}",
+      "heading": "New contact message",
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "fileLink": "Attachment:",
+      "noFile": "No attachment."
+    },
+    "emailConfirm": {
+      "subject": "We have received your message | MARBRERIE TUNIS CARTHAGE",
+      "greeting": "Hello {name},",
+      "body": "Thank you for reaching out. Our sales team is reviewing your message and will get back to you shortly.",
+      "fallback": "If you need urgent assistance, call us at:",
+      "whatsapp": "Message us on WhatsApp"
+    }
+  },
+  "apropos": {
+    "meta": {
+      "title": "About Us | MARBRERIE TUNIS CARTHAGE — Craftsmanship & Excellence",
+      "description": "Discover the heritage, core values, and certifications of MARBRERIE TUNIS CARTHAGE. The art of natural stone since 1989."
+    },
+    "intro": {
+      "kicker": "Since 1989",
+      "title": "A story of passion and craftsmanship",
+      "paragraph1": "For over three decades, MARBRERIE TUNIS CARTHAGE has elevated the finest natural stones of Tunisia and the Mediterranean basin. From quarry selection to meticulous workshop polishing, each creation embodies a timeless balance between artisanal heritage and state-of-the-art technology.",
+      "paragraph2": "We partner with architects, interior designers, and discerning private clients to bring ambitious projects to life, sculpting marble, granite, and travertine with goldsmith precision."
+    },
+    "histoire": {
+      "kicker": "Our Heritage",
+      "title": "Milestones of our journey",
+      "prevAria": "Previous milestone",
+      "nextAria": "Next milestone",
+      "stepIndicator": "Step {current} of {total}"
+    },
+    "valeurs": {
+      "kicker": "Our Values",
+      "title": "The principles guiding our craft"
+    },
+    "certifications": {
+      "kicker": "Our Certifications",
+      "title": "International Standards & Compliance"
+    },
+    "coordonnees": {
+      "kicker": "Contact & Visit",
+      "title": "Bring your exceptional projects to life",
+      "description": "Our advisors and master stonecutters are available to review your architectural plans, present material samples, and guide you through every stage of execution.",
+      "addressLabel": "Workshop & Showroom",
+      "phoneLabel": "Direct phone",
+      "emailLabel": "Email address",
+      "hoursLabel": "Opening hours",
+      "ctaContact": "Contact Us",
+      "ctaWhatsApp": "Chat on WhatsApp"
+    }
+  },
+  "catalogue": {
+    "meta": {
+      "title": "Interactive Catalog | MARBRERIE TUNIS CARTHAGE",
+      "description": "Leaf through our interactive online catalog. Discover our complete range of exceptional marble, granite, and travertine."
+    },
+    "kicker": "Exclusive Collection",
+    "title": "Our Catalog",
+    "subtitle": "Leaf through our collection of exceptional stones page by page. Discover our marbles, granites, and artisanal finishes.",
+    "instructions": "Click on corners or drag to turn pages",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "pageIndicator": "Page {current} of {total}",
+    "loading": "Loading catalog...",
+    "loadingProgress": "Loading pages...",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "downloadPdf": "Download PDF",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "fitWidth": "Fit to screen",
+    "coverFront": "Front Cover",
+    "coverBack": "Back Cover",
+    "mobileFallbackTitle": "Is the catalog not displaying?",
+    "mobileFallbackMessage": "Your browser may not have enough memory to display the catalog. Close a few tabs in Safari or Chrome and try again. You can also open the catalog on a desktop computer or tablet.",
+    "mobileFallbackRetry": "Try again"
+  }
+}
